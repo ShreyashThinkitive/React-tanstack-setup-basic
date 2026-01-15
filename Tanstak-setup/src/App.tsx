@@ -1,6 +1,7 @@
 
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import './App.css'
+import { Registeration } from './components/Registeration'
 
 
 const fetchPosts = async () => {
@@ -79,6 +80,8 @@ function App() {
           </tbody>
         </table>
       </div>
+      <hr />
+      <Registeration/>
     </>
   )
 }
